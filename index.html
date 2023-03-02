@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Football Team</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <h1>Football Team CRUD App</h1>
+  <h2>Create a New Player</h2>
+  <form id="create-form">
+    <label for="fullName">Full Name:</label>
+    <input type="text" id="fullName" name="fullName" required>
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" required>
+    <label for="position">Position:</label>
+    <input type="text" id="position" name="position" required>
+    <button type="submit">Create</button>
+  </form>
+  <hr>
+  <h2>View Players</h2>
+  <ul id="item-list"></ul>
+
+  <script src="./script.js"></script>
+</body>
+</html>
